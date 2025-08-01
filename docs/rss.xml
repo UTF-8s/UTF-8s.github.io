@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>UTF-8s' Blog</title><link>https://UTF-8s.github.io</link><description>海内存知己，天涯若比邻。</description><copyright>UTF-8s' Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://UTF-8s.github.io</link></image><lastBuildDate>Fri, 01 Aug 2025 04:47:43 +0000</lastBuildDate><managingEditor>UTF-8s' Blog</managingEditor><ttl>60</ttl><webMaster>UTF-8s' Blog</webMaster><item><title>我的自我介绍Self-introduction</title><link>https://UTF-8s.github.io/post/wo-de-zi-wo-jie-shao-Self-introduction.html</link><description>Hi there 👋
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>UTF-8s' Blog</title><link>https://UTF-8s.github.io</link><description>海内存知己，天涯若比邻。</description><copyright>UTF-8s' Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://UTF-8s.github.io</link></image><lastBuildDate>Fri, 01 Aug 2025 04:50:59 +0000</lastBuildDate><managingEditor>UTF-8s' Blog</managingEditor><ttl>60</ttl><webMaster>UTF-8s' Blog</webMaster><item><title>我的自我介绍Self-introduction</title><link>https://UTF-8s.github.io/about.html</link><description>Hi there 👋
 
 Nice to meet you!😋
 
@@ -14,4 +14,4 @@ email:2733511912@qq.com
 wechat:IamUTF-8s
 😄 Pronouns: Unicode
 ⚡ Fun fact: NULL
-The end。</description><guid isPermaLink="true">https://UTF-8s.github.io/post/wo-de-zi-wo-jie-shao-Self-introduction.html</guid><pubDate>Fri, 01 Aug 2025 04:05:14 +0000</pubDate></item></channel></rss>
+The end。</description><guid isPermaLink="true">https://UTF-8s.github.io/about.html</guid><pubDate>Fri, 01 Aug 2025 04:05:14 +0000</pubDate></item></channel></rss>
