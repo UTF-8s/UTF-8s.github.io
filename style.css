@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #231c1a;
+    height: 60px;
+    width: 100%;
+}
+#logo_in_header {
+    position: absolute;
+    left: 50px;
+}
+header h1 {
+    display: inline;
+    position: absolute;
+    top: 0;
+    line-height: 60px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+header ul {
+    position: absolute;
+    top: 0;
+    right: 5vw;
+    line-height: 60px;
+}
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+header ul li a {
+    font-size: 18px;
+}
