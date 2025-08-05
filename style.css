@@ -1,16 +1,43 @@
+:root {
+    --UI-color: #00000066;
+    --background-image: url(https://bing.img.run/1920x1080.php);
+    --back-filter: 20px;
+    --back-filter-color: #00000030;
+}
+@font-face {
+    font-family: "default";
+    src: url();
+    font-display: swap;
+}
+@font-face {
+    font-family: "ubuntu";
+    src: url(./fonts/Ubuntu-Regular.ttf);
+    font-display: swap;
+}
 * {
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: "ubuntu","default";
 }
 body{
-    display: inline;
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.backfilter {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(var(--back-filter));
+    background-color: var(--back-filter-color);
+    z-index: -1145;
 }
 header {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: var(--UI-color);
     height: 60px;
     width: 100%;
     position: fixed;
@@ -46,17 +73,25 @@ header ul li a {
     font-size: 18px;
 }
 main {
-    position: relative;
-    top: 60px;
+    display: flex;
+    padding: 60px 0 0 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    min-height: calc(100vh - 120px);
 }
 footer {
-    position: relative;
-    top: 60px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: var(--UI-color);
     color: white;
     height: 60px;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 16px;
+    margin-top: auto;
+}
+.welcome {
+    font-size: 55px;
+    color: white;
 }
