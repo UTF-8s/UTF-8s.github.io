@@ -1,8 +1,11 @@
 :root {
     --UI-color: #00000066;
-    --background-image: url(https://bing.img.run/1920x1080.php);
+    --background-image: url(./image/background.jpg);
     --back-filter: 20px;
     --back-filter-color: #00000030;
+    --font-color: white;
+    --purple-text-color: #747bff;
+    --main-p-size: 22px;
 }
 @font-face {
     font-family: "default";
@@ -19,7 +22,11 @@
     margin: 0;
     font-family: "ubuntu","default";
 }
+
+/* backfilter */
+
 body{
+    color: var(--font-color);
     width: 100vw;
     height: 100vh;
     background-image: var(--background-image);
@@ -36,6 +43,9 @@ body{
     background-color: var(--back-filter-color);
     z-index: -1145;
 }
+
+/* header */
+
 header {
     background-color: var(--UI-color);
     height: 60px;
@@ -72,6 +82,9 @@ header li {
 header ul li a {
     font-size: 18px;
 }
+
+/* main */
+
 main {
     display: flex;
     padding: 60px 0 0 0;
@@ -80,6 +93,27 @@ main {
     gap: 60px;
     min-height: calc(100vh - 120px);
 }
+main p{
+    font-size: var(--main-p-size);
+}
+.welcome h1{
+    font-size: 55px;
+    color: white;
+}
+.purpletext {
+    color: var(--purple-text-color);
+    font-weight: 800;
+}
+.textbackground {
+    font-weight: 800;
+    background: var(--UI-color);
+    border-radius: 5px;
+    font-size: var(--main-p-size);
+    padding: 2px 4px;
+}
+
+/* footer */
+
 footer {
     background-color: var(--UI-color);
     color: white;
@@ -90,8 +124,4 @@ footer {
     align-items: center;
     font-size: 16px;
     margin-top: auto;
-}
-.welcome {
-    font-size: 55px;
-    color: white;
 }
