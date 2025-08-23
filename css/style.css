@@ -1,6 +1,6 @@
 :root {
     --UI-color: #00000066;
-    --background-image: url(./image/background.jpg);
+    --background-image: url(../image/background.jpg);
     --back-filter: 20px;
     --back-filter-color: #00000030;
     --font-color: white;
@@ -32,7 +32,7 @@ body{
     background-image: var(--background-image);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 0 0;
     background-attachment: fixed;
 }
 .backfilter {
