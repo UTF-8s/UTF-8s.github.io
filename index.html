@@ -12,9 +12,24 @@
 </head>
 <body>
     <div class="backfilter"></div>
+
+    <!-- Floating particles -->
+    <div class="particles">
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+        <span class="particle"></span>
+    </div>
+
     <header>
         <a href="https://utf-8s.github.io/" id="logo_in_header">
-            <img src="./image/logo.png" width="60px">
+            <img src="./image/logo.png" width="60px" alt="logo">
             <h1>HelloWorld!</h1>
         </a>
         <ul>
@@ -26,21 +41,24 @@
             </li>
             <li>
                 <a target="_blank" href="./pfstupage.html">
-                    <img src="./image/favicon.png" width="20px">
+                    <img src="./image/favicon.png" width="20px" alt="PFstu">
                     工作室
                 </a>
             </li>
-            <li><a target="_blank" href="#">NULL</a></li>
-            <li><a target="_blank" href="#">NULL</a></li>
+            <li><a href="#skills">技能</a></li>
+            <li><a href="#projects">项目</a></li>
+            <li><a href="#goals">目标</a></li>
         </ul>
     </header>
+
     <main>
+        <!-- Welcome -->
         <section class="welcome">
-            <h1>Hi I' m UTF-8s</h1>
+            <h1>Hi I'm <span class="rainbow-text">UTF-8s</span></h1>
             <p>
-                👦 
+                👦
                 <span class="purpletext">A little</span>
-                Developer 
+                Developer
             </p><br>
             <p>
                 📝 一个
@@ -50,6 +68,10 @@
                 大佬
             </p>
         </section>
+
+        <hr class="section-divider">
+
+        <!-- About Me -->
         <section class="about">
             <h1>About me:</h1>
             <div>
@@ -77,9 +99,190 @@
                 </span>
             </div>
         </section>
+
+        <hr class="section-divider">
+
+        <!-- Skills -->
+        <section class="skills" id="skills">
+            <h1 class="section-title">⚡ 我的技能</h1>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-icon">💻</span>
+                    <h3>C++</h3>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🌐</span>
+                    <h3>HTML / CSS</h3>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" style="width: 65%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🔧</span>
+                    <h3>Git / GitHub</h3>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" style="width: 50%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🐍</span>
+                    <h3>Python</h3>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" style="width: 40%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🟢</span>
+                    <h3>Node.js</h3>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" style="width: 45%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">📦</span>
+                    <h3>CMake</h3>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" style="width: 40%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🐧</span>
+                    <h3>Linux</h3>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" style="width: 30%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🐳</span>
+                    <h3>Docker</h3>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" style="width: 25%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🦀</span>
+                    <h3>Rust</h3>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" style="width: 20%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🤖</span>
+                    <h3>Claude Code</h3>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" style="width: 55%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- Projects -->
+        <section class="projects" id="projects">
+            <h1 class="section-title">🚀 我的项目</h1>
+            <div class="projects-grid">
+                <a class="project-card" href="https://github.com/UTF-8s/UTF-8s.github.io" target="_blank">
+                    <span class="project-icon">🏠</span>
+                    <h3>个人网站</h3>
+                    <p>你现在正在看的这个网站！使用纯 HTML/CSS 构建，部署在 GitHub Pages 上。</p>
+                    <span class="project-tag">HTML/CSS</span>
+                </a>
+                <a class="project-card" href="./pfstupage.html">
+                    <span class="project-icon">🎨</span>
+                    <h3>PFstu 工作室</h3>
+                    <p>工作室跳转页面，连接新旧两个工作室站点。</p>
+                    <span class="project-tag">Web</span>
+                </a>
+                <a class="project-card" href="https://github.com/UTF-8s" target="_blank">
+                    <span class="project-icon">📂</span>
+                    <h3>更多项目</h3>
+                    <p>探索我的 GitHub 仓库，更多项目正在开发中...</p>
+                    <span class="project-tag">GitHub</span>
+                </a>
+                <a class="project-card" href="https://github.com/UTF-8s/UTF-8s.github.io" target="_blank">
+                    <span class="project-icon">✨</span>
+                    <h3>Vibe Coding</h3>
+                    <p>用 Claude Code 辅助开发，AI 驱动的高效编程体验！</p>
+                    <span class="project-tag">AI</span>
+                </a>
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- Learning Goals -->
+        <section class="goals" id="goals">
+            <h1 class="section-title">🎯 学习目标</h1>
+            <div class="goals-list">
+                <div class="goal-item done">
+                    <span class="goal-emoji">✅</span>
+                    <span class="goal-check">✓</span>
+                    <span class="goal-text">学会 HTML 和 CSS</span>
+                </div>
+                <div class="goal-item done">
+                    <span class="goal-emoji">✅</span>
+                    <span class="goal-check">✓</span>
+                    <span class="goal-text">搭建个人网站</span>
+                </div>
+                <div class="goal-item">
+                    <span class="goal-emoji">🏆</span>
+                    <span class="goal-check"></span>
+                    <span class="goal-text">C++ 竞赛获奖</span>
+                </div>
+                <div class="goal-item">
+                    <span class="goal-emoji">🪟</span>
+                    <span class="goal-check"></span>
+                    <span class="goal-text">C++ Windows 应用开发</span>
+                </div>
+                <div class="goal-item">
+                    <span class="goal-emoji">🐧</span>
+                    <span class="goal-check"></span>
+                    <span class="goal-text">学习 Linux 内核</span>
+                </div>
+                <div class="goal-item">
+                    <span class="goal-emoji">🤖</span>
+                    <span class="goal-check"></span>
+                    <span class="goal-text">学习 AI / 机器学习</span>
+                </div>
+                <div class="goal-item">
+                    <span class="goal-emoji">🦀</span>
+                    <span class="goal-check"></span>
+                    <span class="goal-text">学习 Rust 语言</span>
+                </div>
+                <div class="goal-item">
+                    <span class="goal-emoji">🐳</span>
+                    <span class="goal-check"></span>
+                    <span class="goal-text">掌握 CMake + Docker</span>
+                </div>
+            </div>
+        </section>
+
+        <hr class="section-divider">
     </main>
+
     <footer>
-        <p>Copyright © 2025 UTF-8s. All rights reserved. </p>
+        <p>Copyright © 2026 UTF-8s. All rights reserved.</p>
     </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" title="回到顶部">↑</button>
+
+    <script>
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 400) {
+                backToTopBtn.classList.add('visible');
+            } else {
+                backToTopBtn.classList.remove('visible');
+            }
+        });
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
 </body>
 </html>
